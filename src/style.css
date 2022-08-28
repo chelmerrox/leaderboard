@@ -21,3 +21,9 @@ body {
   min-height: 100vh;  /* vh (viewport height as unit of measure)) */
   margin: 0;
 }
+
+h1 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
