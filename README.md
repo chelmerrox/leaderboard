@@ -1,20 +1,18 @@
-# leaderboard
-
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Leaderboard
 
-> This is a Leaderboard site that displays scores submitted by different players. It was built with HTML, CSS, JavaScript &amp; the Leaderboard API.
+> This is a Leaderboard site that displays scores submitted by different players. It was built with HTML, CSS, JavaScript, Webpack &amp; the Leaderboard API.
 
 ## Built With
 
-- Webpack
 - HTML5
 - CSS3
 - JavaScript
-- Git
+- Webpack
 - Leaderboard API
+- Git
+- Medium fidelity wireframe
 
 ## Preview
 
@@ -30,9 +28,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- Webpack
 - HTML5 & CSS3 
 - JavaScript
+- Webpack
 - Leaderboard API
 - VSCode (or any other text editor)
 - Git
