@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;  /* for Google Chrome and Apple Safari */
+  -moz-box-sizing: border-box;    /* for Mozilla Firefox */
+  -ms-box-sizing: border-box;   /* for Microsoft's Internet Explorer */
+  box-sizing: border-box;       /* box-sizing is a property allows us to change exactly how the box-model works  */
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+
+  /*  position: relative; */
+  min-height: 100vh;  /* vh (viewport height as unit of measure)) */
+  margin: 0;
+}
+
+h1 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.section-1 section {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 80%;
+}
+
+.section-1 button {
+  background-color: white;
+  border: solid black 2px;
+  box-shadow: 2px 3px 1px 0 rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 3px 1px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 3px 1px 0 rgba(0, 0, 0, 0.75);
+  height: 50%;
+  font-weight: bold;
+}
+
+.recent-scores-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 2px solid #000;
+  width: 80%;
+}
+
+.recent-score p {
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.recent-score:nth-child(even) {
+  background-color: #b3b1b1;
+  width: 100%;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name-field,
+.user-score-field {
+  height: 30px;
+  border: 3px solid #000;
+  width: 100%;
+}
+
+.user-name-field::placeholder,
+.user-score-field::placeholder {
+  color: #272727;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  display: block;
+  margin-left: auto;
+  background-color: white;
+  border: solid black 2px;
+  box-shadow: 2px 3px 1px 0 rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 3px 1px 0 rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 3px 1px 0 rgba(0, 0, 0, 0.75);
+  font-weight: bold;
+  height: 30%;
+}
