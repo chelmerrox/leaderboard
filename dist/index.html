@@ -15,15 +15,10 @@
         <section>
           <h2>Recent scores</h2>
 
-          <button type="button">Refresh</button>
+          <button type="button" class="refresh-btn">Refresh</button>
         </section>
         
         <div class="recent-scores-container">
-          <div class="recent-score"><p>Name: 100</p></div>
-          <div class="recent-score"><p>Name: 200</p></div>
-          <div class="recent-score"><p>Name: 300</p></div>
-          <div class="recent-score"><p>Name: 400</p></div>
-          <div class="recent-score"><p>Name: 500</p></div>
         </div>
       </div>
 
@@ -31,11 +26,13 @@
         <h2>Add your score</h2>
 
         <form class="form">
-          <input type="text" class="user-name-field" value="" name="user-name" placeholder="Your name"/><br><br>
-          <input type="text" class="user-score-field" value="" name="user-score" placeholder="Your score"/><br><br>
-          <input type="submit" value="Submit"/>
+          <input type="text" class="user-name-field" name="user-name" placeholder="Your name"/><br><br>
+          <input type="text" class="user-score-field" name="user-score" placeholder="Your score"/><br><br>
+          <input type="submit" class="submit-btn" value="Submit"/>
         </form>
       </section>
     </main>
+
+    <script type="module" src="./index.js"></script>
   </body>
 </html>

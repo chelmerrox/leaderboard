@@ -65,14 +65,21 @@ main {
   width: 80%;
 }
 
+.recent-score {
+  width: 100%;
+}
+
 .recent-score p {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 10px;
   font-weight: bold;
 }
 
-.recent-score:nth-child(even) {
+.recent-score p.grey {
   background-color: #b3b1b1;
-  width: 100%;
 }
 
 .section-2 {
