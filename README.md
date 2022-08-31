@@ -21,7 +21,7 @@
 
 ## Live Demo
 
-[Live Demo Link from ./dist/index.html](https://chelmerrox.github.io/leaderboard/dist/)
+[Live Demo Link from ./dist/index.html](https://raw.githack.com/chelmerrox/leaderboard/use-leaderboard-api/dist/index.html)
 
 ## Getting Started
 
