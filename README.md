@@ -13,6 +13,7 @@
 - Leaderboard API
 - Git
 - Medium fidelity wireframe
+- Postman
 
 ## Preview
 
