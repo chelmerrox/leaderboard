@@ -92,10 +92,13 @@ Give a ⭐️ if you like this project!
 - My God & family
 - Microverse
 - Coding & Learning Partners: 
-  1. []() 
-  2. []() 
+  1. [Lawrence Addai Kusi](https://github.com/kusiLaw) 
+  2. [Marvellous](https://github.com/Tommymarvel) 
 - Morning Session Teams
-- Stand-Up Teams
+- Stand-Up Team
+ 1. [Habib Payenda](https://github.com/HabibPayenda) 
+ 2. [Nii Darku](https://github.com/niicode) 
+ 3. [Edi Sipka](https://github.com/edi-sipka) 
 - Microverse TSEs
 
 ## 📝 License
