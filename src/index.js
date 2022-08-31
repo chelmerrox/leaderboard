@@ -1,9 +1,8 @@
 import './style.css';
-import { getAllScores, addScore } from './modules/api-methods.js';
+import { recentScoresContainer, getAllScores, addScore } from './modules/api-methods.js';
 
 const form = document.querySelector('.form');
 const refreshBtn = document.querySelector('.refresh-btn');
-export const recentScoresContainer = document.querySelector('.recent-scores-container');
 
 getAllScores();
 
