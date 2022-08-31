@@ -26,6 +26,8 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin-left: 20px;
+  color: #f3840e;
+  text-shadow: 2px 5px 6px #f3840e;
 }
 
 main {
@@ -62,6 +64,7 @@ main {
   flex-direction: column;
   align-items: flex-start;
   border: 2px solid #000;
+  box-shadow: 10px 10px 10px grey;
   width: 80%;
 }
 
@@ -76,10 +79,11 @@ main {
   padding-bottom: 10px;
   padding-left: 10px;
   font-weight: bold;
+  line-break: anywhere;
 }
 
-.recent-score p.grey {
-  background-color: #b3b1b1;
+.recent-score p.orange {
+  background-color: #f3840e;
 }
 
 .section-2 {
@@ -91,6 +95,8 @@ main {
 .user-score-field {
   height: 30px;
   border: 3px solid #000;
+  border-radius: 10px;
+  box-shadow: 2px 3px 9px grey;
   width: 100%;
 }
 

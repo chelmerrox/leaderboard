@@ -15,9 +15,9 @@ const displayScores = (data) => {
 
   pArray.forEach((element, j) => {
     if (j % 2 === 0) {
-      element.classList.add('grey');
+      element.classList.add('orange');
     } else {
-      element.classList.remove('grey');
+      element.classList.remove('orange');
     }
   });
 };
