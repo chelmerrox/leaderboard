@@ -1,11 +1,11 @@
 import './style.css';
-import { getAllScores } from './modules/api-methods.js';
+import { getAllScores, addScore } from './modules/api-methods.js';
 
 const form = document.querySelector('.form');
 const userNameField = document.querySelector('.user-name-field');
 const userScoreField = document.querySelector('.user-score-field');
-let userNameVal;
-let userScoreVal;
+export let userNameVal;
+export let userScoreVal;
 const refreshBtn = document.querySelector('.refresh-btn');
 export const recentScoresContainer = document.querySelector('.recent-scores-container');
 
@@ -20,4 +20,15 @@ refreshBtn.addEventListener('click', (e) => {
   recentScoresContainer.innerHTML = '';
 
   getAllScores();
+});
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  userNameVal = userNameField.value;
+  userScoreVal = userScoreField.value;
+
+  addScore();
+
+  form.reset();
 });
