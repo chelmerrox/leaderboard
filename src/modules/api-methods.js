@@ -10,16 +10,6 @@ const displayScores = (data) => {
 
     recentScoresContainer.appendChild(recentScoreDiv);
   });
-
-  const pArray = Array.from(document.querySelectorAll('p'));
-
-  pArray.forEach((element, j) => {
-    if (j % 2 === 0) {
-      element.classList.add('orange');
-    } else {
-      element.classList.remove('orange');
-    }
-  });
 };
 
 // GET method (for Get all scores)
