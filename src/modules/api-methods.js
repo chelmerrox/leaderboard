@@ -1,5 +1,7 @@
 export const recentScoresContainer = document.querySelector('.recent-scores-container');
 
+const scoresAPIURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/sZFhupVBKPQG0DoGJb3U/scores/';
+
 // Display the name & scores on the site
 const displayScores = (data) => {
   const recentScoreDiv = document.createElement('div');
@@ -19,7 +21,7 @@ export const getAllScores = async () => {
     headers: { 'Content-type': 'application/json; charset=UTF-8' },
   };
 
-  await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/sZFhupVBKPQG0DoGJb3U/scores/', options)
+  await fetch(scoresAPIURL, options)
     .then((response) => response.json())
     .then((data) => displayScores(data.result));
 };
@@ -35,7 +37,7 @@ export const addScore = async (userNameVal, userScoreVal) => {
     }),
   };
 
-  await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/sZFhupVBKPQG0DoGJb3U/scores/', options)
+  await fetch(scoresAPIURL, options)
     .then((response) => response.json());
 
   recentScoresContainer.innerHTML = '';
